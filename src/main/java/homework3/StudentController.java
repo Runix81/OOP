@@ -3,11 +3,11 @@ package homework3;
 public class StudentController {
     private StudentGroupService studentGroupService;
     public static void main(String[] args) {
-        Student student1 = new Student(12, "nikita", "nikiforov", "sergeevich");
-        Student student2 = new Student(21, "kseniia", "volkova", "yuryevna");
-        Student student3 = new Student(12, "petr", "nikiforov", "sergeevich");
-        Student student4 = new Student(21, "genya", "volkova", "yuryevna");
-        Student student5 = new Student(12, "svinka", "nikiforov", "sergeevich");
+        Student student1 = new Student(12, "sergey", "pupkin", "vladimirovich");
+        Student student2 = new Student(21, "daniil", "kuznetsov", "petrovich");
+        Student student3 = new Student(12, "petr", "koreyko", "sergeevich");
+        Student student4 = new Student(21, "vasiliy", "nikolaev", "nikolaevich");
+        Student student5 = new Student(12, "anton", "staroskoltsev", "sergeevich");
         Student student6 = new Student(21, "pupkin", "volkova", "yuryevna");
 
         StudentsGroup stream1Group1 = new StudentsGroup();
